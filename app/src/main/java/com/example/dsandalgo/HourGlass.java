@@ -109,6 +109,10 @@ class Result {
             else
                 System.out.println("Maximum sum of hour glass = "
                         + res);
+
+            StockMarketTypeQuestiosnArrays obj = new StockMarketTypeQuestiosnArrays();
+            int[] arr = {7,1,5,3,6,4};
+            obj.getMaxSales(arr);
         }
 
 }
